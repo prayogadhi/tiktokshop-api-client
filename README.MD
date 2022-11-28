@@ -2,7 +2,7 @@
 
 ### How To Install
 
-`composer require haistar/tiktokshop-api-client`
+`composer require adi/tiktokshop-api-client`
 
 ### How To Use
 
