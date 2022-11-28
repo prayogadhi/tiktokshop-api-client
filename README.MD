@@ -6,7 +6,7 @@
 
 ### How To Use
 
-<sub>
+```
 $tiktokClient = new GeneralApiClient();
 $tiktokConfig = new TiktokApiConfig();
 $tiktokConfig->setAppKey($appKey);
@@ -24,4 +24,4 @@ $params = array(
 );
 
 $resultLocation = $tiktokClient->httpCallGet($baseUrl, $apiPath, $params, $tiktokConfig);
-</sub>
+```
